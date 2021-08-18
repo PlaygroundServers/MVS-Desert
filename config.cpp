@@ -20,7 +20,7 @@ class CfgMods
 		type = "mod";
 		name = "TakistanPlus_CamoPlus";
 		tooltip = "TakistanPlus_CamoPlus";
-		author = "RedFalcon&GumbyMN";
+		author = "RedFalcon & GumbyMN";
 		authorID = "";
 		version = "1.0.0";
 		inputs = "TakistanPlus_CamoPlus/scripts/Inputs.xml";
