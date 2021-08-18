@@ -1,4 +1,4 @@
-# MVS-Desert
+# Desert Camo for Modular Vest System
 ![Offline](https://img.shields.io/badge/Version-1.0-green)
 
 All content is provided under the Arma and Dayz Public License Share Alike ([ADPL-SA](https://www.bohemia.net/community/licenses/arma-and-dayz-public-license-share-alike-adpl-sa)) License. The original source for ModularVestSystem belongs to **DaddyPrapor** and may not be devrived from. This pack includes additions for custom textures and modifications to the MVS System, but does not include that content. 
@@ -6,8 +6,8 @@ All content is provided under the Arma and Dayz Public License Share Alike ([ADP
 **Note:** You must install ModularVestSystem along side this mod to work.
 
 ## Contributions
-This version of the MVS-Desert mod was developed by [tluth001](https://github.com/tluth001) and [RedFalconKen](https://github.com/RedFalconKen) using the latest DayZ Patch. 
+This version of the Desert Camo for Modular Vest System mod was developed by [tluth001](https://github.com/tluth001) and [RedFalconKen](https://github.com/RedFalconKen) using the latest DayZ Patch. 
 
-## About MVS-Desert
+## About Desert Camo for Modular Vest System
 
 <br><sup>Updated **August 2021**</sup>
