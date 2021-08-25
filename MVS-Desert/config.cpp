@@ -1,67 +1,28 @@
 class CfgPatches
 {
-    class TakistanPlus_CamoPlus
+    class MVS-Desert
 	{
         units[]={};
         weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[]=
-        {
-            "ModularVestSystem"
-        };
+		requiredAddons[]={"DZ_Data","DZ_Characters_Vests","DZ_Characters_Backpacks","DZ_Scripts","DZ_Characters","DZ_Gear_Drinks","DZ_Gear_Medical","DZ_Gear_Containers","ModularVestSystem"};
     };
 };
 class CfgMods
 {
-	class TakistanPlus_CamoPlus
+	class MVS-Desert
 	{
-		dir = "TakistanPlus_CamoPlus";
+		dir = "MVS-Desert";
 		extra = 0;
 		type = "mod";
-		name = "TakistanPlus_CamoPlus";
-		tooltip = "TakistanPlus_CamoPlus";
+		name = "MVS-Desert";
+		tooltip = "MVS-Desert";
 		author = "RedFalcon & GumbyMN";
 		authorID = "";
 		version = "1.0.0";
-		inputs = "TakistanPlus_CamoPlus/scripts/Inputs.xml";
-		dependencies[] = {"Game","World","Mission"};
-		class defs
-		{
-			class gameScriptModule
-			{
-				value = "";
-				files[] = {"TakistanPlus_CamoPlus/scripts/3_Game"};
-			};
-			class worldScriptModule
-			{
-				value = "";
-				files[] = {"TakistanPlus_CamoPlus/scripts/4_World"};
-			};
-			class missionScriptModule
-			{
-				value = "";
-				files[] = {"TakistanPlus_CamoPlus/scripts/5_Mission"};
-			};
-		};
 	};
 };
-class CfgMagazines
+class cfgVehicles
 {
-    class PlateCarrierVest;
-	class ModularVestSystem_Base: PlateCarrierVest
-    {
-        absorbency=0;
-		heatIsolation=0.0;
-    }
-    class HighCapacityVest_ColorBase;
-	class ModularVestSystem_Heavy: PlateCarrierVest
-    {
-        absorbency=0;
-		heatIsolation=0.25;
-    }
-    class ModularChestRig_Base: HighCapacityVest_ColorBase
-	{
-        absorbency=0;
-		heatIsolation=0.0;
-    }
+
 };
