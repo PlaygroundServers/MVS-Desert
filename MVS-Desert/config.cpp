@@ -315,4 +315,25 @@ class cfgVehicles
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Chestrig_co_Desert.paa"};
 	}
+	class ModularVestSystem_Heavy_Desert_Digi: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "MVS Heavy - Desert Digital";
+		heatIsolation = 0.25;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_DesertDigi.paa"};
+	}
+	class ModularVestSystem_Heavy_Desert_Multicam: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "MVS Heavy - Desert Multicam";
+		heatIsolation = 0.25;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_MC_Desert.paa"};
+	}
+	class ModularVestSystem_Heavy_Desert: PlateCarrierVest
+	{
+		scope = 2;
+		displayName = "MVS Heavy - Desert";
+		heatIsolation = 0.25;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_Desert.paa"};
+	}
 };
