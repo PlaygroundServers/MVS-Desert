@@ -114,6 +114,27 @@ class cfgVehicles
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_Desert.paa"};
 	}
+	class class MVS_FlatCap_Desert_Digi: FlatCap_Black
+	{
+		scope = 2;
+		displayName = "MVS Flat Cap - Desert Digital";
+		heatIsolation = 0.0;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_FlatCap_DesertDigi.paa"};
+	}
+	class class MVS_FlatCap_Desert_Multicam: FlatCap_Black
+	{
+		scope = 2;
+		displayName = "MVS Flat Cap - Desert Multicam";
+		heatIsolation = 0.0;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_FlatCap_MC_Desert.paa"};
+	}
+	class class MVS_FlatCap_Desert: FlatCap_Black
+	{
+		scope = 2;
+		displayName = "MVS Flat Cap - Desert";
+		heatIsolation = 0.0;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_FlatCap_Desert.paa"};
+	}
 	class MVS_CombatShirt_Desert_Digi: MVS_CombatShirt_Base
 	{
 		scope = 2;
