@@ -58,4 +58,43 @@ class cfgVehicles
 	class MVS_S10Respirator;
 	class MVS_PMK2Respirator;
 	class MVS_M50Respirator;
+	class MVS_Canteen_Desert_Digi: MVS_Canteen_Base
+	{
+		scope = 2;
+		displayName = "MVS Canteen - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\canteen_co_DesertDigi.paa"};
+	}
+		class MVS_Canteen_Multicam_Desert: MVS_Canteen_Base
+	{
+		scope = 2;
+		displayName = "MVS Canteen - Multicam Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\canteen_co_Desert.paa"};
+	}
+	class MVS_Canteen_Desert: MVS_Canteen_Base
+	{
+		scope = 2;
+		displayName = "MVS Canteen - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\canteen_co_Desert.paa"};
+	}
+	class MVS_Cap_Desert_Digi: MVS_Cap_Base
+	{
+		scope = 2;
+		displayName = "MVS Cap - Desert Digital";
+		heatIsolation = 0.0;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_DesertDigi.paa"};
+	}
+	class MVS_Cap_Multicam_Desert: MVS_Cap_Base
+	{
+		scope = 2;
+		displayName = "MVS Cap - Multicam Desert";
+		heatIsolation = 0.0;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_MC_Desert.paa"};
+	}
+	class MVS_Cap_Desert: MVS_Cap_Base
+	{
+		scope = 2;
+		displayName = "MVS Cap - Desert";
+		heatIsolation = 0.0;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_Desert.paa"};
+	}
 };
