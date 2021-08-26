@@ -1,10 +1,9 @@
 # Desert Camo for Modular Vest System
 ![Offline](https://img.shields.io/badge/Version-1.0-green)
 
-<figure align="center">
-    <img height="500" width="500" src="https://cdn.discordapp.com/attachments/854148171466145822/877332282833252382/Desert_Camo_for_MVS.png">
-    <figcaption>Desert Digital, Desert Multicam, Desert</figure>
-</figure>
+<p align="center">
+    <img height="500" width="500" src="https://cdn.discordapp.com/attachments/854148171466145822/877332282833252382/Desert_Camo_for_MVS.png" alt="Desert Digital, Desert Multicam, Desert (Left to Right)">
+</p>
 
 
 All content is provided under the Arma and Dayz Public License Share Alike ([ADPL-SA](https://www.bohemia.net/community/licenses/arma-and-dayz-public-license-share-alike-adpl-sa)) License. The original source for ModularVestSystem belongs to **DaddyPrapor** and may not be devrived from. This pack includes additions for custom textures and modifications to the MVS System, but does not include that content. 
