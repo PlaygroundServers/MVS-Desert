@@ -2,7 +2,7 @@
 ![Offline](https://img.shields.io/badge/Version-1.0-green)
 
 <p align="center">
-    <img  src="https://cdn.discordapp.com/attachments/854148171466145822/877332282833252382/Desert_Camo_for_MVS.png">
+    <img height="300" width="400" src="https://cdn.discordapp.com/attachments/854148171466145822/877332282833252382/Desert_Camo_for_MVS.png">
 </p>
 
 
