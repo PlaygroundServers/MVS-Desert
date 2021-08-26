@@ -177,6 +177,13 @@ class cfgVehicles
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_CombatPants_Desert.paa"};
 	}
+	class MVS_Comtacs_Desert: BalaclavaMask_ColorBase
+	{
+		scope = 2;
+		displayName = "MVS Comtacs - Desert";
+		heatIsolation = 0.0;
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\OpsCoreComtacs_co.paa"};	
+	}
 	class MVS_Holster_Desert_Digi: PlateCarrierHolster
 	{
 		scope = 2;
