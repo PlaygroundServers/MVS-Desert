@@ -34,16 +34,11 @@ class cfgVehicles
 	class ModularChestRig_Base;
 	class ModularVestSystem_Base;
 	class PlateCarrierHolster;
+	class Modular_Pouch_Base_Heavy;
 	class Modular_Belt_Base;
 	class MVS_Sheath_Base;
 	class MVS_Compact_Base;
-	class MVS_Pack_Base;
-	class MVS_Rucksack_Base;
-	class MVS_Molle_Panel_Base;
-	class Modular_Pouch_Base_Utility;
-	class Modular_Pouch_Base_Medical;
 	class Modular_Pouch_Base_Taco;
-	// Attachments, Belts, Hats, & Helmets
 	class MVS_Belt_Desert_Digi: Modular_Belt_Base
 	{
 		scope = 2;
@@ -200,6 +195,45 @@ class cfgVehicles
 		displayName = "MVS Sheath - Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\sheath_co_Desert.paa"};
 	}
+	class MVS_Taco_Pouch_Desert_Digi: Modular_Pouch_Base_Taco
+	{
+		scope = 2;
+		displayName = "MVS Taco Pouch - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\taco_co_DesertDigi.paa"};
+	}
+	class MVS_Taco_Pouch_Desert_Multicam: Modular_Pouch_Base_Taco
+	{
+		scope = 2;
+		displayName = "MVS Taco Pouch - Desert Multicam";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\taco_co_MC_Desert.paa"};
+	}
+	class MVS_Taco_Pouch_Desert: Modular_Pouch_Base_Taco
+	{
+		scope = 2;
+		displayName = "MVS Taco Pouch - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\taco_co_Desert.paa"};
+	}
+	class MVS_Heavy_Pouch_Desert_Digi: Modular_Pouch_Base_Heavy
+	{
+		scope = 2;
+		displayName = "MVS Heavy LMG Pouch - Desert Digital";
+		heatIsolation = 0.8;
+		hiddenSelectionsTextures[] = {"\WinterCamoForModularVestSystem\Data\Digisnow\MVSHeavy_co_DesertDigi.paa"};
+	};
+	class MVS_Heavy_Pouch_Desert_Digi: Modular_Pouch_Base_Heavy
+	{
+		scope = 2;
+		displayName = "MVS Heavy LMG Pouch - Desert Multicam";
+		heatIsolation = 0.8;
+		hiddenSelectionsTextures[] = {"\WinterCamoForModularVestSystem\Data\MVSHeavy_co_MC_Desert.paa"};
+	};
+	class MVS_Heavy_Pouch_Desert: Modular_Pouch_Base_Heavy
+	{
+		scope = 2;
+		displayName = "MVS Heavy LMG Pouch - Desert";
+		heatIsolation = 0.8;
+		hiddenSelectionsTextures[] = {"\WinterCamoForModularVestSystem\Data\MVSHeavy_co_Desert.paa"};
+	};
 	class MVS_Warrior_Desert_Digi: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
@@ -214,15 +248,31 @@ class cfgVehicles
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\Mandalorian_Helmet_co_MC_DesertDigi.paa"};
 	}
-	class MVS_Warrior_Desert_Digi: MVS_WarriorHelmet_Base
+	class MVS_Warrior_Desert: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
 		displayName = "MVS Warrior Helmet - Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\Mandalorian_Helmet_co_Desert.paa"};
 	}
-
-	// Vests
+	class MVS_Compact_Pack_Desert_Digi: MVS_Compact_Base
+	{
+		scope = 2;
+		displayName = "MVS Compact Pack - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_1_co_DesertDigi.paa"};
+	}
+	class MVS_Compact_Pack_Desert_Multicam: MVS_Compact_Base
+	{
+		scope = 2;
+		displayName = "MVS Compact Pack - Desert Multicam";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_1_co_MC_Desert.paa"};
+	}
+	class MVS_Compact_Pack_Desert: MVS_Compact_Base
+	{
+		scope = 2;
+		displayName = "MVS Compact Pack - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_1_co_Desert.paa"};
+	}
 	class MVS_Combat_Vest_Desert_Digi: ModularVestSystem_Base
 	{
 		scope = 2;
