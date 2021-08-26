@@ -23,5 +23,6 @@ This version of Desert Camo provides Desert Fatigue clothing with Digital, Multi
 **Future Additions**
 1) Bags
 2) Helmets (All)
+3) Attachments (Admin Pouches, Magazine Pouches, Utility Pouches, Medical Pouches, Molle Panel)
 
 <br><sup>Updated **August 2021**</sup>
