@@ -2,7 +2,7 @@
 ![Offline](https://img.shields.io/badge/Version-1.0-green)
 
 <p align="center">
-    <img height="500" width="500" src="https://cdn.discordapp.com/attachments/854148171466145822/877332282833252382/Desert_Camo_for_MVS.png" alt="Desert Digital, Desert Multicam, Desert (Left to Right)">
+    <img height="600" width="600" src="https://cdn.discordapp.com/attachments/854148171466145822/877332282833252382/Desert_Camo_for_MVS.png" alt="Desert Digital, Desert Multicam, Desert (Left to Right)">
 </p>
 
 
