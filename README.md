@@ -9,5 +9,19 @@ All content is provided under the Arma and Dayz Public License Share Alike ([ADP
 This version of the Desert Camo for Modular Vest System mod was developed by [tluth001](https://github.com/tluth001) and [RedFalconKen](https://github.com/RedFalconKen) using the latest DayZ Patch. 
 
 ## About Desert Camo for Modular Vest System
+This version of Desert Camo provides Desert Fatigue clothing with Digital, Multicam and Desert patterns. This offers the included patterns for the following items:
+
+1) Belts
+2) Canteens
+3) Caps (Boonie, Cap, Flatcap)
+4) Comtacs
+4) Helmets (MVS Warrior)
+5) Clothing (Combat Pants, Combat Shirt)
+6) Vests (MVS-Vest, MVS-Vest-Heavy, ChestRig)
+7) Attachments (Taco, Sheath, Heavy Pouch)
+
+**Future Additions**
+1) Bags
+2) Helmets (All)
 
 <br><sup>Updated **August 2021**</sup>
