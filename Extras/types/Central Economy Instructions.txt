@@ -8,7 +8,6 @@ the <Mission_Name>/db/types.xml file but instead loaded as their own files. Foll
 
     <ce folder name="mvs-desert-types-ce">
         <file name="mvs_desert_types.xml" type="types" />
-        <file name="mvs_desert_spawnabletypes.xml" type="types" />
     </ce>
 
 5) Save cfgeconomycore.cfg
