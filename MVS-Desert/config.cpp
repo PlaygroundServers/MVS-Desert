@@ -319,6 +319,42 @@ class cfgVehicles
 		displayName = "MVS Compact Pack - Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_Desert.paa"};
 	}
+	class MVS_Radio_Pack_Desert_Digi: MVS_Pack_Base
+	{
+		scope = 2;
+		displayName = "MVS Radio Pack - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\RadioPack_co_DesertDigi.paa"};
+	}
+	class MVS_Radio_Pack_Desert_Multicam: MVS_Pack_Base
+	{
+		scope = 2;
+		displayName = "MVS Radio Pack - Desert Radio Pack";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\RadioPack_co_MC_Desert.paa"};
+	}
+	class MVS_Radio_Pack_Desert: MVS_Pack_Base
+	{
+		scope = 2;
+		displayName = "MVS Radio Pack - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\RadioPack_co_Desert.paa"};
+	}
+	class MVS_SlingPack_Desert_Digi: MVS_Sling_Pack_Base
+	{
+		scope = 2;
+		displayName = "MVS Sling Pack - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_DesertDigi.paa"};
+	}
+	class MVS_SlingPack_Desert_Digi: MVS_Sling_Pack_Base
+	{
+		scope = 2;
+		displayName = "MVS Sling Pack - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_MC_Desert.paa"};
+	}
+	class MVS_SlingPack_Desert_Digi: MVS_Sling_Pack_Base
+	{
+		scope = 2;
+		displayName = "MVS Sling Pack - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_Desert.paa"};
+	}
 	class MVS_Combat_Vest_Desert_Digi: ModularVestSystem_Base
 	{
 		scope = 2;
