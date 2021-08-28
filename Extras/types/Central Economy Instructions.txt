@@ -1,0 +1,14 @@
+These steps will assist server admins with adding the MVS Desert types files to the server as standalone files. These are NOT to be added to 
+the <Mission_Name>/db/types.xml file but instead loaded as their own files. Follow the instructions to add them to your server.
+
+1) Open the MPMissions directory at the root of the server
+2) Copy the "mvs-desert-types-ce" directory to your mission folder (<mpmissions/mission_name>)
+3) In the mission folder, locate and open cfgeconomycore.cfg
+4) After the closing </default> line, add the following:
+
+    <ce folder name="mvs-desert-types-ce">
+        <file name="mvs_desert_types.xml" type="types" />
+    </ce>
+
+5) Save cfgeconomycore.cfg
+6) Edit types to your liking.
