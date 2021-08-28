@@ -301,6 +301,24 @@ class cfgVehicles
 		displayName = "MVS Compact Pack - Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_1_co_Desert.paa"};
 	}
+	class MVS_Compact_Pack_Desert_Digi_2: MVS_Compact_Base
+	{
+		scope = 2;
+		displayName = "MVS Compact Pack - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_DesertDigi.paa"};
+	}
+	class MVS_Compact_Pack_Desert_Multicam_2: MVS_Compact_Base
+	{
+		scope = 2;
+		displayName = "MVS Compact Pack - Desert Multicam";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa"};
+	}
+	class MVS_Compact_Pack_Desert_2: MVS_Compact_Base
+	{
+		scope = 2;
+		displayName = "MVS Compact Pack - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_Desert.paa"};
+	}
 	class MVS_Combat_Vest_Desert_Digi: ModularVestSystem_Base
 	{
 		scope = 2;
