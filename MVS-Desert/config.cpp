@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class MVS-Desert
+    class MVS_Desert
 	{
         units[]={};
         weapons[]={};
@@ -10,12 +10,12 @@ class CfgPatches
 };
 class CfgMods
 {
-	class MVS-Desert
+	class MVS_Desert
 	{
 		dir = "MVS-Desert";
 		extra = 0;
 		type = "mod";
-		name = "MVS-Desert";
+		name = "MVS_Desert";
 		tooltip = "MVS-Desert";
 		author = "RedFalcon & GumbyMN";
 		authorID = "";
