@@ -353,19 +353,19 @@ class cfgVehicles
 		displayName = "MVS Compact Pack - Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_1_co_Desert.paa","\MVS-Desert\data\MVS_Compact_1_co_Desert.paa","\MVS-Desert\data\MVS_Compact_1_co_Desert.paa"};
 	};
-	class MVS_Compact_Pack_Desert_Digi_2: MVS_Compact_Base
+	class MVS_Compact_Pack_2_Desert_Digi: MVS_Compact_Base
 	{
 		scope = 2;
 		displayName = "MVS Compact Pack - Desert Digital";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_DesertDigi.paa","\MVS-Desert\data\MVS_Compact_2_co_DesertDigi.paa","\MVS-Desert\data\MVS_Compact_2_co_DesertDigi.paa","\MVS-Desert\data\MVS_Compact_2_Details_co_Sand.paa"};
 	};
-	class MVS_Compact_Pack_Desert_Multicam_2: MVS_Compact_Base
+	class MVS_Compact_Pack_2_Desert_Multicam: MVS_Compact_Base
 	{
 		scope = 2;
 		displayName = "MVS Compact Pack - Desert Multicam";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa",,"\MVS-Desert\data\MVS_Compact_2_Details_co_Sand.paa"};
 	};
-	class MVS_Compact_Pack_Desert_2: MVS_Compact_Base
+	class MVS_Compact_Pack_2_Desert: MVS_Compact_Base
 	{
 		scope = 2;
 		displayName = "MVS Compact Pack - Desert";
@@ -407,21 +407,21 @@ class cfgVehicles
 		displayName = "MVS Sling Pack - Desert Digital";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_Desert.paa","\MVS-Desert\data\MVS_Sling_co_Desert.paa","\MVS-Desert\data\MVS_Sling_co_Desert.paa"};
 	};
-	class MVS_CombatVest_Desert_Digi: ModularVestSystem_Base
+	class ModularVestSystem_Desert_Digi: ModularVestSystem_Base
 	{
 		scope = 2;
 		displayName = "MVS Combat Vest - Desert Digital";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
 	};
-	class MVS_CombatVest_Desert_Multicam: ModularVestSystem_Base
+	class ModularVestSystem_Desert_Multicam: ModularVestSystem_Base
 	{
 		scope = 2;
 		displayName = "MVS Combat Vest - Desert Multicam";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
 	};
-	class MVS_CombatVest_Desert: ModularVestSystem_Base
+	class ModularVestSystem_Desert: ModularVestSystem_Base
 	{
 		scope = 2;
 		displayName = "MVS Combat Vest - Desert";
