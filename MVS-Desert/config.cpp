@@ -252,21 +252,21 @@ class cfgVehicles
 		displayName = "MVS Heavy LMG Pouch - Desert Digital";
 		heatIsolation = 0.8;
 		hiddenSelectionsTextures[] = {"\WinterCamoForModularVestSystem\Data\Digisnow\MVSHeavy_co_DesertDigi.paa"};
-	};;
-	class MVS_Heavy_Pouch_Desert_Digi: Modular_Pouch_Base_Heavy
+	};
+	class MVS_Heavy_Pouch_Desert_Multicam: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
 		displayName = "MVS Heavy LMG Pouch - Desert Multicam";
 		heatIsolation = 0.8;
 		hiddenSelectionsTextures[] = {"\WinterCamoForModularVestSystem\Data\MVSHeavy_co_MC_Desert.paa"};
-	};;
+	};
 	class MVS_Heavy_Pouch_Desert: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
 		displayName = "MVS Heavy LMG Pouch - Desert";
 		heatIsolation = 0.8;
 		hiddenSelectionsTextures[] = {"\WinterCamoForModularVestSystem\Data\MVSHeavy_co_Desert.paa"};
-	};;
+	};
 	class MVS_Warrior_Desert_Digi: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
