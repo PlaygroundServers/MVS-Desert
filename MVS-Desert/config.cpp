@@ -41,6 +41,7 @@ class cfgVehicles
 	class MVS_Sling_Pack_Base;
 	class MVS_Pack_Base;
 	class BoonieHat_Olive;
+	class FlatCap_Black;
 	class MVS_Belt_Desert_Digi: Modular_Belt_Base
 	{
 		scope = 2;
