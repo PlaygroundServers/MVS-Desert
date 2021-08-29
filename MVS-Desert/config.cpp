@@ -196,6 +196,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "MVS Holster - Desert Digital";
 		heatIsolation = 0.0;
+		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\holster_co_DesertDigi.paa","\MVS-Desert\data\holster_co_DesertDigi.paa","\MVS-Desert\data\holster_co_DesertDigi.paa"};
 	};
 	class MVS_Holster_Desert_Multicam: PlateCarrierHolster
@@ -203,6 +204,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "MVS Holster - Desert Multicam";
 		heatIsolation = 0.0;
+		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\holster_co_MC_Desert.paa","\MVS-Desert\data\holster_co_MC_Desert.paa","\MVS-Desert\data\holster_co_MC_Desert.paa"};
 	};
 	class MVS_Holster_Desert: PlateCarrierHolster
@@ -210,6 +212,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "MVS Holster - Desert";
 		heatIsolation = 0.0;
+		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\holster_co_Desert.paa","\MVS-Desert\data\holster_co_Desert.paa","\MVS-Desert\data\holster_co_Desert.paa"};
 	};
 	class MVS_Sheath_Desert_Digi: MVS_Sheath_Base
