@@ -27,14 +27,12 @@ class cfgVehicles
 	class MVS_Canteen_Base;
 	class MVS_Cap_Base;
 	class MVS_Helmet_Base;
-	class BoonieHat_Olive;
 	class MVS_WarriorHelmet_Base;
 	class MVS_CombatShirt_Base;
 	class MVS_CombatPants_Base;
 	class ModularChestRig_Base;
 	class ModularVestSystem_Base;
 	class ModularVestSystem_Heavy;
-	class PlateCarrierHolster;
 	class Modular_Pouch_Base_Heavy;
 	class ModularChestRig_Base;
 	class Modular_Belt_Base;
@@ -42,6 +40,8 @@ class cfgVehicles
 	class MVS_Compact_Base;
 	class MVS_Sling_Pack_Base;
 	class Modular_Pouch_Base_Taco;
+	class MVS_Sling_Pack_Base;
+	class MVS_Pack_Base;
 	class MVS_Belt_Desert_Digi: Modular_Belt_Base
 	{
 		scope = 2;
