@@ -363,13 +363,13 @@ class cfgVehicles
 	{
 		scope = 2;
 		displayName = "MVS Compact Pack - Desert Multicam";
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa",,"\MVS-Desert\data\MVS_Compact_2_Details_co_Sand.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_MC_Desert.paa","\MVS-Desert\data\MVS_Compact_2_Details_co_Sand.paa"};
 	};
 	class MVS_Compact_Pack_2_Desert: MVS_Compact_Base
 	{
 		scope = 2;
 		displayName = "MVS Compact Pack - Desert";
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_Desert.paa",,"\MVS-Desert\data\MVS_Compact_2_Details_co_Sand.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_Desert.paa","\MVS-Desert\data\MVS_Compact_2_co_Desert.paa","\MVS-Desert\data\MVS_Compact_2_Details_co_Sand.paa"};
 	};
 	class MVS_Radio_Pack_Desert_Digi: MVS_Radio_Pack_Tan
 	{
