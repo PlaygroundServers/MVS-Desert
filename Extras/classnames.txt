@@ -58,6 +58,12 @@ MVS_SlingPack_Desert_Digi
 MVS_Warrior_Desert_Digi
 MVS_Warrior_Desert_Multicam
 MVS_Warrior_Desert
+MVS_Helmet_2_Desert_Digi
+MVS_Helmet_2_Desert_Multicam
+MVS_Helmet_2_Desert
+MVS_6B47Helmet_Desert_Digi
+MVS_6B47Helmet_Desert_Multicam
+MVS_6B47Helmet_Desert
 
 // Vests
 MVS_Combat_Vest_Desert_Digi
