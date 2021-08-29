@@ -46,6 +46,7 @@ class cfgVehicles
 	class Mich2001Helmet;
 	class MVS_ArmoredHelmet_Base;
 	class MVS_Radio_Pack_Tan;
+        class MVS_Helmet_2_Base;
 	class MVS_Belt_Desert_Digi: Modular_Belt_Base
 	{
 		scope = 2;
@@ -293,21 +294,21 @@ class cfgVehicles
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\Mandalorian_Helmet_co_Desert.paa","\MVS-Desert\data\Mandalorian_Helmet_co_Desert.paa","\MVS-Desert\data\Mandalorian_Helmet_co_Desert.paa"};
 	};
-	class MVS_Helmet_2_Desert_Digi: Mich2001Helmet
+	class MVS_Helmet_2_Desert_Digi: MVS_Helmet_2_Base
 	{
 		scope = 2;
 		displayName = "MVS Helmet 2 - Desert Digital";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Helmet_2_DesertDigi_co.paa","\MVS-Desert\data\MVS_Helmet_2_DesertDigi_co.paa","\MVS-Desert\data\MVS_Helmet_2_DesertDigi_co.paa"};
 	};
-	class MVS_Helmet_2_Desert_Multicam: Mich2001Helmet
+	class MVS_Helmet_2_Desert_Multicam: MVS_Helmet_2_Base
 	{
 		scope = 2;
 		displayName = "MVS Helmet 2 - Desert Digital";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Helmet_2_MC_Desert_co.paa","\MVS-Desert\data\MVS_Helmet_2_MC_Desert_co.paa","\MVS-Desert\data\MVS_Helmet_2_MC_Desert_co.paa"};
 	};
-	class MVS_Helmet_2_Desert: Mich2001Helmet
+	class MVS_Helmet_2_Desert: MVS_Helmet_2_Base
 	{
 		scope = 2;
 		displayName = "MVS Helmet 2 - Desert Multicam";
