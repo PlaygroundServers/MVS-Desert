@@ -437,7 +437,7 @@ class cfgVehicles
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Chestrig_co_MC_Desert.paa"};
 	};
-	class MVS_ChestRig_Desert_Digi: ModularChestRig_Base
+	class MVS_ChestRig_Desert: ModularChestRig_Base
 	{
 		scope = 2;
 		displayName = "MVS ChestRig - Desert";
