@@ -40,6 +40,7 @@ class cfgVehicles
 	class Modular_Pouch_Base_Taco;
 	class MVS_Sling_Pack_Base;
 	class MVS_Pack_Base;
+	class BoonieHat_Olive;
 	class MVS_Belt_Desert_Digi: Modular_Belt_Base
 	{
 		scope = 2;
