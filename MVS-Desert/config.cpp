@@ -66,11 +66,7 @@ class cfgVehicles
 		displayName = "MVS Canteen - Desert Digital";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\canteen_co_DesertDigi.paa"};
 	};
-<<<<<<< HEAD
 	class MVS_Canteen_Multicam_Desert: MVS_Canteen_Base
-=======
-		class MVS_Canteen_Multicam_Desert: MVS_Canteen_Base
->>>>>>> 358489437328dcb65a5a03a2bb5f2394d4837e1f
 	{
 		scope = 2;
 		displayName = "MVS Canteen - Multicam Desert";
@@ -103,33 +99,21 @@ class cfgVehicles
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_Desert.paa"};
 	};
-<<<<<<< HEAD
 	class MVS_FlatCap_Desert_Digi: FlatCap_Black
-=======
-	class class MVS_FlatCap_Desert_Digi: FlatCap_Black
->>>>>>> 358489437328dcb65a5a03a2bb5f2394d4837e1f
 	{
 		scope = 2;
 		displayName = "MVS Flat Cap - Desert Digital";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_FlatCap_DesertDigi.paa"};
 	};
-<<<<<<< HEAD
 	class MVS_FlatCap_Desert_Multicam: FlatCap_Black
-=======
-	class class MVS_FlatCap_Desert_Multicam: FlatCap_Black
->>>>>>> 358489437328dcb65a5a03a2bb5f2394d4837e1f
 	{
 		scope = 2;
 		displayName = "MVS Flat Cap - Desert Multicam";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_FlatCap_MC_Desert.paa"};
 	};
-<<<<<<< HEAD
 	class MVS_FlatCap_Desert: FlatCap_Black
-=======
-	class class MVS_FlatCap_Desert: FlatCap_Black
->>>>>>> 358489437328dcb65a5a03a2bb5f2394d4837e1f
 	{
 		scope = 2;
 		displayName = "MVS Flat Cap - Desert";
