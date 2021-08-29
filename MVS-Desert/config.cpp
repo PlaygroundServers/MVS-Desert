@@ -37,7 +37,6 @@ class cfgVehicles
 	class Modular_Belt_Base;
 	class MVS_Sheath_Base;
 	class MVS_Compact_Base;
-	class MVS_Sling_Pack_Base;
 	class Modular_Pouch_Base_Taco;
 	class MVS_Sling_Pack_Base;
 	class MVS_Pack_Base;
