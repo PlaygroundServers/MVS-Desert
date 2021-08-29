@@ -390,13 +390,13 @@ class cfgVehicles
 		displayName = "MVS Sling Pack - Desert Digital";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_DesertDigi.paa"};
 	};
-	class MVS_SlingPack_Desert_Digi: MVS_Sling_Pack_Base
+	class MVS_SlingPack_Desert_Multicam: MVS_Sling_Pack_Base
 	{
 		scope = 2;
 		displayName = "MVS Sling Pack - Desert Digital";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_MC_Desert.paa"};
 	};
-	class MVS_SlingPack_Desert_Digi: MVS_Sling_Pack_Base
+	class MVS_SlingPack_Desert: MVS_Sling_Pack_Base
 	{
 		scope = 2;
 		displayName = "MVS Sling Pack - Desert Digital";
