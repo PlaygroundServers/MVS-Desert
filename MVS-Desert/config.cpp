@@ -279,7 +279,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "MVS Warrior Helmet - Desert Multicam";
 		heatIsolation = 0.0;
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\Mandalorian_Helmet_co_MC_DesertDigi.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\Mandalorian_Helmet_co_MC_Desert.paa"};
 	};
 	class MVS_Warrior_Desert: MVS_WarriorHelmet_Base
 	{
