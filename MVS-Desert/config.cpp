@@ -30,7 +30,6 @@ class cfgVehicles
 	class MVS_WarriorHelmet_Base;
 	class MVS_CombatShirt_Base;
 	class MVS_CombatPants_Base;
-	class ModularChestRig_Base;
 	class ModularVestSystem_Base;
 	class ModularVestSystem_Heavy;
 	class Modular_Pouch_Base_Heavy;
