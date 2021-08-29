@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class MVS-Desert
+    class MVS_Desert
 	{
         units[]={};
         weapons[]={};
@@ -10,12 +10,12 @@ class CfgPatches
 };
 class CfgMods
 {
-	class MVS-Desert
+	class MVS_Desert
 	{
 		dir = "MVS-Desert";
 		extra = 0;
 		type = "mod";
-		name = "MVS-Desert";
+		name = "MVS_Desert";
 		tooltip = "MVS-Desert";
 		author = "RedFalcon & GumbyMN";
 		authorID = "";
@@ -66,7 +66,11 @@ class cfgVehicles
 		displayName = "MVS Canteen - Desert Digital";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\canteen_co_DesertDigi.paa"};
 	};
+<<<<<<< HEAD
 	class MVS_Canteen_Multicam_Desert: MVS_Canteen_Base
+=======
+		class MVS_Canteen_Multicam_Desert: MVS_Canteen_Base
+>>>>>>> 358489437328dcb65a5a03a2bb5f2394d4837e1f
 	{
 		scope = 2;
 		displayName = "MVS Canteen - Multicam Desert";
@@ -99,21 +103,33 @@ class cfgVehicles
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_Desert.paa"};
 	};
+<<<<<<< HEAD
 	class MVS_FlatCap_Desert_Digi: FlatCap_Black
+=======
+	class class MVS_FlatCap_Desert_Digi: FlatCap_Black
+>>>>>>> 358489437328dcb65a5a03a2bb5f2394d4837e1f
 	{
 		scope = 2;
 		displayName = "MVS Flat Cap - Desert Digital";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_FlatCap_DesertDigi.paa"};
 	};
+<<<<<<< HEAD
 	class MVS_FlatCap_Desert_Multicam: FlatCap_Black
+=======
+	class class MVS_FlatCap_Desert_Multicam: FlatCap_Black
+>>>>>>> 358489437328dcb65a5a03a2bb5f2394d4837e1f
 	{
 		scope = 2;
 		displayName = "MVS Flat Cap - Desert Multicam";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_FlatCap_MC_Desert.paa"};
 	};
+<<<<<<< HEAD
 	class MVS_FlatCap_Desert: FlatCap_Black
+=======
+	class class MVS_FlatCap_Desert: FlatCap_Black
+>>>>>>> 358489437328dcb65a5a03a2bb5f2394d4837e1f
 	{
 		scope = 2;
 		displayName = "MVS Flat Cap - Desert";
@@ -232,21 +248,21 @@ class cfgVehicles
 		displayName = "MVS Heavy LMG Pouch - Desert Digital";
 		heatIsolation = 0.8;
 		hiddenSelectionsTextures[] = {"\WinterCamoForModularVestSystem\Data\Digisnow\MVSHeavy_co_DesertDigi.paa"};
-	};
+	};;
 	class MVS_Heavy_Pouch_Desert_Digi: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
 		displayName = "MVS Heavy LMG Pouch - Desert Multicam";
 		heatIsolation = 0.8;
 		hiddenSelectionsTextures[] = {"\WinterCamoForModularVestSystem\Data\MVSHeavy_co_MC_Desert.paa"};
-	};
+	};;
 	class MVS_Heavy_Pouch_Desert: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
 		displayName = "MVS Heavy LMG Pouch - Desert";
 		heatIsolation = 0.8;
 		hiddenSelectionsTextures[] = {"\WinterCamoForModularVestSystem\Data\MVSHeavy_co_Desert.paa"};
-	};
+	};;
 	class MVS_Warrior_Desert_Digi: MVS_WarriorHelmet_Base
 	{
 		scope = 2;
