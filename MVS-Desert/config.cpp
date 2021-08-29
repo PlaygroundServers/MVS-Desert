@@ -296,7 +296,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "MVS Helmet 2 - Desert Digital";
 		heatIsolation = 0.0;
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Helmet_2_DesertDigi_co.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Helmet_2_MC_Desert_co.paa"};
 	}
 	class MVS_Helmet_2_Desert: Mich2001Helmet
 	{
