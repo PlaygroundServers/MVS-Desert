@@ -72,6 +72,9 @@ Modular Vest System by DaddyPrapor
     MVS_ArmoredHelmet_1_Desert
 
     // Bags
+    MVS_Pack_Digi_Desert
+    MVS_Pack_Multicam_Desert
+    MVS_Pack_Desert
 	MVS_Compact_1_Digi_Desert
 	MVS_Compact_1_Multicam_Desert
 	MVS_Compact_1_Desert
