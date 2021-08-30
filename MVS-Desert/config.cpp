@@ -48,10 +48,12 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_Base;
 	class MVS_Helmet_2_Base;
 	class MVS_Radio_Pack_Tan;
+	class Modular_Pouch_Base;
 	class Modular_Pouch_Base_Admin;
 	class Modular_Pouch_Base_Medical;
 	class Modular_Pouch_Base_Utility;
 	class MVS_Molle_Panel_Base;
+	class MVS_Admin_Pouch;
 	class MVS_Admin_Pouch_Desert_Digi: MVS_Admin_Pouch
 	{
 		scope = 2;
@@ -364,21 +366,21 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_Desert_Digi: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Digital Desert";
+		displayName = "MVS Armored Helmet - Digital Desert";
 		heatIsolation = 0.25;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\OpsCore_co_DesertDigi.paa","\MVS-Desert\data\OpsCore_co_DesertDigi.paa","\MVS-Desert\data\OpsCore_co_DesertDigi.paa","\MVS-Desert\data\Mandible_co_DesertDigi.paa","\ModularVestSystem\data\Helmets\MVS_Visor.paa"};
 	}:
 	class MVS_ArmoredHelmet_Multicam_Desert: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Multicam Desert";
+		displayName = "MVS Armored Helmet - Multicam Desert";
 		heatIsolation = 0.25;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\OpsCore_co_MC_Desert.paa","\MVS-Desert\data\OpsCore_co_MC_Desert.paa","\MVS-Desert\data\OpsCore_co_MC_Desert.paa","\MVS-Desert\data\Mandible_co_MC_Desert.paa","\ModularVestSystem\data\Helmets\MVS_Visor.paa"};
 	}:
 	class MVS_ArmoredHelmet_Desert: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Desert";
+		displayName = "MVS Armored Helmet - Desert";
 		heatIsolation = 0.25;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\OpsCore_co_Desert.paa","\MVS-Desert\data\OpsCore_co_Desert.paa","\MVS-Desert\data\OpsCore_co_Desert.paa","\MVS-Desert\data\Mandible_co_Desert.paa","\ModularVestSystem\data\Helmets\MVS_Visor.paa"};
 	}:
