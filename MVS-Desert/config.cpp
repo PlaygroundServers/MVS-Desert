@@ -408,6 +408,24 @@ class cfgVehicles
 		displayName = "MVS Sling Pack - Desert Digital";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_Desert.paa","\MVS-Desert\data\MVS_Sling_co_Desert.paa","\MVS-Desert\data\MVS_Sling_co_Desert.paa"};
 	};
+	class MVS_Assault_Pack_Desert_Digi: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "MVS Raider Pack - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\RaidPack_DesertDigi_co.paa","\MVS-Desert\data\RaidPack_DesertDigi_co.paa","\MVS-Desert\data\RaidPack_DesertDigi_co.paa"};
+	}
+	class MVS_Assault_Pack_Desert_Multicam: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "MVS Raider Pack - Desert Multicam";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\RaidPack_MC_Desert_co.paa","\MVS-Desert\data\RaidPack_MC_Desert_co.paa","\MVS-Desert\data\RaidPack_MC_Desert_co.paa"};
+	}
+	class MVS_Assault_Pack_Desert: MVS_Assault_Pack_Tan
+	{
+		scope = 2;
+		displayName = "MVS Raider Pack - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\RaidPack_Desert_co.paa","\MVS-Desert\data\RaidPack_Desert_co.paa","\MVS-Desert\data\RaidPack_Desert_co.paa"};
+	}
 	class ModularVestSystem_Desert_Digi: ModularVestSystem_Base
 	{
 		scope = 2;
