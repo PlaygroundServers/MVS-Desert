@@ -509,7 +509,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Boonie_Digi_Desert">
+    <type name="MVS_BoonieHat_Digi_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -521,7 +521,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Boonie_Multicam_Desert">
+    <type name="MVS_BoonieHat_Multicam_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -533,7 +533,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Boonie_Desert">
+    <type name="MVS_BoonieHat_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -691,7 +691,7 @@
     </type>
 
     <!-- Bags -->
-    <type name="MVS_Compact_Pack_Digi_Desert">
+    <type name="MVS_Compact_1_Digi_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -703,7 +703,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Compact_Pack_Multicam_Desert">
+    <type name="MVS_Compact_1_Multicam_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -715,7 +715,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Compact_Pack_Desert">
+    <type name="MVS_Compact_1_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -727,7 +727,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Compact_Pack_2_Digi_Desert">
+    <type name="MVS_Compact_2_Digi_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -739,7 +739,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Compact_Pack_2_Multicam_Desert">
+    <type name="MVS_Compact_2_Multicam_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -751,7 +751,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Compact_Pack_2_Desert">
+    <type name="MVS_Compact_2_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -981,7 +981,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Helmet_2_Digi_Desert">
+    <type name="MVS_Helmet_02_Digi_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -993,7 +993,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Helmet_2_Multicam_Desert">
+    <type name="MVS_Helmet_02_Multicam_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -1005,7 +1005,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Helmet_2_Desert">
+    <type name="MVS_Helmet_02_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
