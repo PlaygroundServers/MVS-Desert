@@ -32,6 +32,9 @@ Modular Vest System by DaddyPrapor
     MVS_Medical_Pouch_Digi_Desert
     MVS_Medical_Pouch_Multicam_Desert
     MVS_Medical_Pouch_Desert
+    MVS_Magazine_Pouch_Digi_Desert
+    MVS_Magazine_Pouch_Multicam_Desert
+    MVS_Magazine_Pouch_Desert
     MVS_Utility_Pouch_Digi_Desert
     MVS_Utility_Pouch_Multicam_Desert
     MVS_Utility_Pouch_Desert

@@ -76,7 +76,7 @@ class cfgVehicles
 		displayName = "MVS Medical Pouch - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
 	};
-	class MVS_Medical_Pouch_Multi_Desert: Modular_Pouch_Base_Medical
+	class MVS_Medical_Pouch_Multicam_Desert: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
 		displayName = "MVS Medical Pouch - Multicam Desert";
@@ -86,6 +86,24 @@ class cfgVehicles
 	{
 		scope = 2;
 		displayName = "MVS Admin Pouch - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
+	};
+	class MVS_Magazine_Pouch_Digi_Desert: Modular_Pouch_Base
+	{
+		scope = 2;
+		displayName = "MVS Magazine Pouch - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
+	};
+	class MVS_Magazine_Pouch_Multicam_Desert: Modular_Pouch_Base_Medical
+	{
+		scope = 2;
+		displayName = "MVS Magazine Pouch - Multicam Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
+	};
+	class MVS_Magazine_Pouch_Desert: Modular_Pouch_Base_Medical
+	{
+		scope = 2;
+		displayName = "MVS Magazine Pouch - Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
 	};
 	class MVS_Utility_Pouch_Digi_Desert: MVS_Admin_Pouch
