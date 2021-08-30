@@ -26,6 +26,18 @@ Modular Vest System by DaddyPrapor
 	MVS_CombatPants_Desert
     
 	// Attachments
+    MVS_Admin_Pouch_Digi_Desert
+    MVS_Admin_Pouch_Multicam_Desert
+    MVS_Admin_Pouch_Desert
+    MVS_Medical_Pouch_Digi_Desert
+    MVS_Medical_Pouch_Multicam_Desert
+    MVS_Medical_Pouch_Desert
+    MVS_Utility_Pouch_Digi_Desert
+    MVS_Utility_Pouch_Multicam_Desert
+    MVS_Utility_Pouch_Desert
+    MVS_Molle_Panel_Digi_Desert
+    MVS_Molle_Panel_Multicam_Desert
+    MVS_Molle_Panel_Desert
     MVS_Holster_Digi_Desert
 	MVS_Holster_Multicam_Desert
 	MVS_Holster_Desert
@@ -73,7 +85,8 @@ Modular Vest System by DaddyPrapor
     // Vests
 	ModularVestSystem_Digi_Desert
 	ModularVestSystem_Multicam_Desert
-	ModularVestSystem_DesertMVS_ChestRig_Digi_Desert
+	ModularVestSystem_Desert
+    MVS_ChestRig_Digi_Desert
     MVS_ChestRig_Multicam_Desert
 	MVS_ChestRig_Desert
 	ModularVestSystem_Heavy_Digi_Desert

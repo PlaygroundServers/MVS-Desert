@@ -48,10 +48,86 @@ class cfgVehicles
 	class MVS_ArmoredHelmet_Base;
 	class MVS_Helmet_2_Base;
 	class MVS_Radio_Pack_Tan;
+	class Modular_Pouch_Base_Admin;
+	class Modular_Pouch_Base_Medical;
+	class Modular_Pouch_Base_Utility;
+	class MVS_Molle_Panel_Base;
+	class MVS_Admin_Pouch_Digi_Desert: MVS_Admin_Pouch
+	{
+		scope = 2;
+		displayName = "MVS Admin Pouch - Digital Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
+	};
+	class MVS_Admin_Pouch_Multi_Desert: MVS_Admin_Pouch
+	{
+		scope = 2;
+		displayName = "MVS Admin Pouch - Multicam Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
+	};
+	class MVS_Admin_Pouch_Desert: MVS_Admin_Pouch
+	{
+		scope = 2;
+		displayName = "MVS Admin Pouch - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
+	};
+	class MVS_Medical_Pouch_Digi_Desert: Modular_Pouch_Base_Medical
+	{
+		scope = 2;
+		displayName = "MVS Medical Pouch - Digital Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
+	};
+	class MVS_Medical_Pouch_Multi_Desert: Modular_Pouch_Base_Medical
+	{
+		scope = 2;
+		displayName = "MVS Medical Pouch - Multicam Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
+	};
+	class MVS_Medical_Pouch_Desert: Modular_Pouch_Base_Medical
+	{
+		scope = 2;
+		displayName = "MVS Admin Pouch - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
+	};
+	class MVS_Utility_Pouch_Digi_Desert: MVS_Admin_Pouch
+	{
+		scope = 2;
+		displayName = "MVS Utility Pouch - Digital Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
+	};
+	class MVS_Utility_Pouch_Multi_Desert: MVS_Admin_Pouch
+	{
+		scope = 2;
+		displayName = "MVS Utility Pouch - Multicam Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
+	};
+	class MVS_Utility_Pouch_Desert: MVS_Admin_Pouch
+	{
+		scope = 2;
+		displayName = "MVS Utility Pouch - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
+	};
+	class MVS_Molle_Panel_Digi_Desert: MVS_Molle_Panel_Base
+	{
+		scope = 2;
+		displayName = "MVS Admin Pouch - Digital Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
+	};
+	class MVS_Molle_Panel_Multi_Desert: MVS_Molle_Panel_Base
+	{
+		scope = 2;
+		displayName = "MVS Admin Pouch - Multicam Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
+	};
+	class MVS_Molle_Panel_Desert: MVS_Molle_Panel_Base
+	{
+		scope = 2;
+		displayName = "MVS Admin Pouch - Desert";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
+	};
 	class MVS_Belt_Digi_Desert: Modular_Belt_Base
 	{
 		scope = 2;
-		displayName = "MVS Belt - Desert Digital";
+		displayName = "MVS Belt - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\Belt_co_DesertDigi.paa","\MVS-Desert\data\Belt_co_DesertDigi.paa","\MVS-Desert\data\Belt_co_DesertDigi.paa"};
 	};
 	class MVS_Belt_Multicam_Desert: Modular_Belt_Base
@@ -69,7 +145,7 @@ class cfgVehicles
 	class MVS_Boonie_Digi_Desert: MVS_BoonieHat
 	{
 		scope = 2;
-		displayName = "MVS Boonie - Desert Digital";
+		displayName = "MVS Boonie - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_BoonieHat_DesertDigi.paa","\MVS-Desert\data\MVS_BoonieHat_DesertDigi.paa","\MVS-Desert\data\MVS_BoonieHat_DesertDigi.paa"};
 	};
 	class MVS_Boonie_Multicam_Desert: MVS_BoonieHat
@@ -87,7 +163,7 @@ class cfgVehicles
 	class MVS_Canteen_Digi_Desert: MVS_Canteen_Base
 	{
 		scope = 2;
-		displayName = "MVS Canteen - Desert Digital";
+		displayName = "MVS Canteen - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\canteen_co_DesertDigi.paa","\MVS-Desert\data\canteen_co_DesertDigi.paa","\MVS-Desert\data\canteen_co_DesertDigi.paa"};
 	};
 	class MVS_Canteen_Multicam_Desert: MVS_Canteen_Base
@@ -105,7 +181,7 @@ class cfgVehicles
 	class MVS_Cap_Digi_Desert: MVS_Cap_Base
 	{
 		scope = 2;
-		displayName = "MVS Cap - Desert Digital";
+		displayName = "MVS Cap - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_DesertDigi.paa","\MVS-Desert\data\MVS_Cap_co_DesertDigi.paa","\MVS-Desert\data\MVS_Cap_co_DesertDigi.paa"};
 	};
@@ -126,7 +202,7 @@ class cfgVehicles
 	class MVS_FlatCap_Digi_Desert: MVS_FlatCap
 	{
 		scope = 2;
-		displayName = "MVS Flat Cap - Desert Digital";
+		displayName = "MVS Flat Cap - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_Desert.paa","\MVS-Desert\data\MVS_Cap_co_Desert.paa","\MVS-Desert\data\MVS_Cap_co_Desert.paa"};
 	};
@@ -147,7 +223,7 @@ class cfgVehicles
 	class MVS_CombatShirt_Digi_Desert: MVS_CombatShirt_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Shirt - Desert Digital";
+		displayName = "MVS Combat Shirt - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_CombatShirt_DesertDigi.paa","\MVS-Desert\data\MVS_CombatShirt_DesertDigi.paa","\MVS-Desert\data\MVS_CombatShirt_DesertDigi.paa"};
 	};
@@ -168,7 +244,7 @@ class cfgVehicles
 	class MVS_CombatPants_Digi_Desert: MVS_CombatPants_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Pants - Desert Digital";
+		displayName = "MVS Combat Pants - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_CombatPants_DesertDigi.paa","\MVS-Desert\data\MVS_CombatPants_DesertDigi.paa","\MVS-Desert\data\MVS_CombatPants_DesertDigi.paa"};
 	};
@@ -189,7 +265,7 @@ class cfgVehicles
 	class MVS_Holster_Digi_Desert: PlateCarrierHolster
 	{
 		scope = 2;
-		displayName = "MVS Holster - Desert Digital";
+		displayName = "MVS Holster - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelections[] = {"camoGround","zbytek"};
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\holster_co_DesertDigi.paa","\MVS-Desert\data\holster_co_DesertDigi.paa","\MVS-Desert\data\holster_co_DesertDigi.paa"};
@@ -213,7 +289,7 @@ class cfgVehicles
 	class MVS_Sheath_Digi_Desert: MVS_Sheath_Base
 	{
 		scope = 2;
-		displayName = "MVS Sheath - Desert Digital";
+		displayName = "MVS Sheath - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\sheath_co_DesertDigi.paa","\MVS-Desert\data\sheath_co_DesertDigi.paa","\MVS-Desert\data\sheath_co_DesertDigi.paa"};
 	};
 	class MVS_Sheath_Multicam_Desert: MVS_Sheath_Base
@@ -231,7 +307,7 @@ class cfgVehicles
 	class MVS_Taco_Pouch_Digi_Desert: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Taco Pouch - Desert Digital";
+		displayName = "MVS Taco Pouch - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\taco_co_DesertDigi.paa","\MVS-Desert\data\taco_co_DesertDigi.paa","\MVS-Desert\data\taco_co_DesertDigi.paa"};
 	};
 	class MVS_Taco_Pouch_Multicam_Desert: Modular_Pouch_Base_Taco
@@ -243,13 +319,13 @@ class cfgVehicles
 	class MVS_Taco_Pouch_Desert: Modular_Pouch_Base_Taco
 	{
 		scope = 2;
-		displayName = "MVS Taco Pouch - Desert Digital";
+		displayName = "MVS Taco Pouch - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\taco_co_Desert.paa","\MVS-Desert\data\taco_co_Desert.paa","\MVS-Desert\data\taco_co_Desert.paa"};
 	};
 	class MVS_Heavy_Pouch_Digi_Desert: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy LMG Pouch - Desert Digital";
+		displayName = "MVS Heavy LMG Pouch - Digital Desert";
 		heatIsolation = 0.8;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVSHeavy_co_DesertDigi.paa","\MVS-Desert\data\MVSHeavy_co_DesertDigi.paa","\MVS-Desert\data\MVSHeavy_co_DesertDigi.paa"};
 	};
@@ -270,7 +346,7 @@ class cfgVehicles
 	class MVS_Warrior_Digi_Desert: MVS_ArmoredHelmet_Base
 	{
 		scope = 2;
-		displayName = "MVS Warrior Helmet - Desert Digital";
+		displayName = "MVS Warrior Helmet - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\Mandalorian_Helmet_co_DesertDigi.paa","\MVS-Desert\data\Mandalorian_Helmet_co_DesertDigi.paa","\MVS-Desert\data\Mandalorian_Helmet_co_DesertDigi.paa"};
 	};
@@ -291,14 +367,14 @@ class cfgVehicles
 	class MVS_Helmet_2_Digi_Desert: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Helmet 2 - Desert Digital";
+		displayName = "MVS Helmet 2 - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Helmet_2_DesertDigi_co.paa","\MVS-Desert\data\MVS_Helmet_2_DesertDigi_co.paa","\MVS-Desert\data\MVS_Helmet_2_DesertDigi_co.paa"};
 	};
 	class MVS_Helmet_2_Multicam_Desert: MVS_Helmet_2_Base
 	{
 		scope = 2;
-		displayName = "MVS Helmet 2 - Desert Digital";
+		displayName = "MVS Helmet 2 - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Helmet_2_MC_Desert_co.paa","\MVS-Desert\data\MVS_Helmet_2_MC_Desert_co.paa","\MVS-Desert\data\MVS_Helmet_2_MC_Desert_co.paa"};
 	};
@@ -312,14 +388,14 @@ class cfgVehicles
 	class MVS_OpsCore_Digi_Desert: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS OpsCore - Desert Digital";
+		displayName = "MVS OpsCore - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\OpsCore_co_DesertDigi.paa","\MVS-Desert\data\OpsCore_co_DesertDigi.paa","\MVS-Desert\data\OpsCore_co_DesertDigi.paa"};
 	};
 	class MVS_OpsCore_Multicam_Desert: MVS_OpsCore_Base
 	{
 		scope = 2;
-		displayName = "MVS OpsCore - Desert Digital";
+		displayName = "MVS OpsCore - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\OpsCore_co_MC_Desert.paa","\MVS-Desert\data\OpsCore_co_MC_Desert.paa","\MVS-Desert\data\OpsCore_co_MC_Desert.paa"};
 	};
@@ -333,7 +409,7 @@ class cfgVehicles
 	class MVS_Compact_Pack_Digi_Desert: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack - Desert Digital";
+		displayName = "MVS Compact Pack - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_1_co_DesertDigi.paa","\MVS-Desert\data\MVS_Compact_1_co_DesertDigi.paa","\MVS-Desert\data\MVS_Compact_1_co_DesertDigi.paa"};
 	};
 	class MVS_Compact_Pack_Multicam_Desert: MVS_Compact_Base
@@ -351,7 +427,7 @@ class cfgVehicles
 	class MVS_Compact_Pack_2_Digi_Desert: MVS_Compact_Base
 	{
 		scope = 2;
-		displayName = "MVS Compact Pack - Desert Digital";
+		displayName = "MVS Compact Pack - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Compact_2_co_DesertDigi.paa","\MVS-Desert\data\MVS_Compact_2_co_DesertDigi.paa","\MVS-Desert\data\MVS_Compact_2_co_DesertDigi.paa","\MVS-Desert\data\MVS_Compact_2_Details_co_Sand.paa"};
 	};
 	class MVS_Compact_Pack_2_Multicam_Desert: MVS_Compact_Base
@@ -369,7 +445,7 @@ class cfgVehicles
 	class MVS_Radio_Pack_Digi_Desert: MVS_Radio_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Radio Pack - Desert Digital";
+		displayName = "MVS Radio Pack - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\RadioPack_co_DesertDigi.paa","\MVS-Desert\data\RadioPack_co_DesertDigi.paa","\MVS-Desert\data\RadioPack_co_DesertDigi.paa"};
 	};
 	class MVS_Radio_Pack_Multicam_Desert: MVS_Radio_Pack_Tan
@@ -405,25 +481,25 @@ class cfgVehicles
 	class MVS_SlingPack_Digi_Desert: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - Desert Digital";
+		displayName = "MVS Sling Pack - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_DesertDigi.paa","\MVS-Desert\data\MVS_Sling_co_DesertDigi.paa","\MVS-Desert\data\MVS_Sling_co_DesertDigi.paa"};
 	};
 	class MVS_SlingPack_Multicam_Desert: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - Desert Digital";
+		displayName = "MVS Sling Pack - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_MC_Desert.paa","\MVS-Desert\data\MVS_Sling_co_MC_Desert.paa","\MVS-Desert\data\MVS_Sling_co_MC_Desert.paa"};
 	};
 	class MVS_SlingPack_Desert: MVS_Sling_Pack_Base
 	{
 		scope = 2;
-		displayName = "MVS Sling Pack - Desert Digital";
+		displayName = "MVS Sling Pack - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Sling_co_Desert.paa","\MVS-Desert\data\MVS_Sling_co_Desert.paa","\MVS-Desert\data\MVS_Sling_co_Desert.paa"};
 	};
 	class MVS_Assault_Pack_Digi_Desert: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - Desert Digital";
+		displayName = "MVS Raider Pack - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\RaidPack_DesertDigi_co.paa","\MVS-Desert\data\RaidPack_DesertDigi_co.paa","\MVS-Desert\data\RaidPack_DesertDigi_co.paa"};
 	};
 	class MVS_Assault_Pack_Multicam_Desert: MVS_Assault_Pack_Tan
@@ -435,13 +511,13 @@ class cfgVehicles
 	class MVS_Assault_Pack_Desert: MVS_Assault_Pack_Tan
 	{
 		scope = 2;
-		displayName = "MVS Raider Pack - Desert Digital";
+		displayName = "MVS Raider Pack - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\RaidPack_Desert_co.paa","\MVS-Desert\data\RaidPack_Desert_co.paa","\MVS-Desert\data\RaidPack_Desert_co.paa"};
 	};
 	class ModularVestSystem_Digi_Desert: ModularVestSystem_Base
 	{
 		scope = 2;
-		displayName = "MVS Combat Vest - Desert Digital";
+		displayName = "MVS Combat Vest - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
 	};
@@ -462,7 +538,7 @@ class cfgVehicles
 	class MVS_ChestRig_Digi_Desert: ModularChestRig_Base
 	{
 		scope = 2;
-		displayName = "MVS ChestRig - Desert Digital";
+		displayName = "MVS ChestRig - Digital Desert";
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Chestrig_co_DesertDigi.paa","\MVS-Desert\data\MVS_Chestrig_co_DesertDigi.paa","\MVS-Desert\data\MVS_Chestrig_co_DesertDigi.paa"};
 	};
@@ -483,7 +559,7 @@ class cfgVehicles
 	class ModularVestSystem_Heavy_Digi_Desert: ModularVestSystem_Heavy
 	{
 		scope = 2;
-		displayName = "MVS Heavy - Desert Digital";
+		displayName = "MVS Heavy - Digital Desert";
 		heatIsolation = 0.25;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_DesertDigi.paa","\MVS-Desert\data\VestHeavy_co_DesertDigi.paa","\MVS-Desert\data\VestHeavy_co_DesertDigi.paa"};
 	};
