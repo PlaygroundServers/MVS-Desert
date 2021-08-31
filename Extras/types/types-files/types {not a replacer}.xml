@@ -1,5 +1,5 @@
     <!-- Vests -->
-    <type name="MVS_Vest_Digi_Desert">
+    <type name="MVS_Combat_Vest_Digi_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -11,7 +11,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Vest_Multicam_Desert">
+    <type name="MVS_Combat_Vest_Multicam_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
@@ -23,7 +23,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
-    <type name="MVS_Vest_Desert">
+    <type name="MVS_Combat_Vest_Desert">
         <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>

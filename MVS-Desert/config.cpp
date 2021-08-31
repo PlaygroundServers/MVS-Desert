@@ -54,20 +54,19 @@ class cfgVehicles
 	class Modular_Pouch_Base_Medical;
 	class Modular_Pouch_Base_Utility;
 	class MVS_Molle_Panel_Base;
-	class MVS_Admin_Pouch;
-	class MVS_Admin_Pouch_Desert_Digi: MVS_Admin_Pouch
+	class MVS_Admin_Pouch_Desert_Digi: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
 		displayName = "MVS Admin Pouch - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
 	};
-	class MVS_Admin_Pouch_Multi_Desert: MVS_Admin_Pouch
+	class MVS_Admin_Pouch_Multi_Desert: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
 		displayName = "MVS Admin Pouch - Multicam Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
 	};
-	class MVS_Admin_Pouch_Desert: MVS_Admin_Pouch
+	class MVS_Admin_Pouch_Desert: Modular_Pouch_Base_Admin
 	{
 		scope = 2;
 		displayName = "MVS Admin Pouch - Desert";
@@ -109,19 +108,19 @@ class cfgVehicles
 		displayName = "MVS Magazine Pouch - Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
 	};
-	class MVS_Utility_Pouch_Desert_Digi: MVS_Admin_Pouch
+	class MVS_Utility_Pouch_Desert_Digi: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
 		displayName = "MVS Utility Pouch - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
 	};
-	class MVS_Utility_Pouch_Multi_Desert: MVS_Admin_Pouch
+	class MVS_Utility_Pouch_Multi_Desert: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
 		displayName = "MVS Utility Pouch - Multicam Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
 	};
-	class MVS_Utility_Pouch_Desert: MVS_Admin_Pouch
+	class MVS_Utility_Pouch_Desert: Modular_Pouch_Base_Utility
 	{
 		scope = 2;
 		displayName = "MVS Utility Pouch - Desert";
