@@ -3,104 +3,104 @@ By GumbyMN & RedFalconKen
 Modular Vest System by DaddyPrapor
 
     // Clothing
-    MVS_Belt_Digi_Desert
+    MVS_Belt_Desert_Digi
 	MVS_Belt_Multicam_Desert
 	MVS_Belt_Desert
-	MVS_Boonie_Digi_Desert
-	MVS_Boonie_Multicam_Desert
-	MVS_Boonie_Desert
-	MVS_Canteen_Digi_Desert
+	MVS_BoonieHat_Desert_Digi
+	MVS_BoonieHat_Multicam_Desert
+	MVS_BoonieHat_Desert
+	MVS_Canteen_Desert_Digi
 	MVS_Canteen_Multicam_Desert
 	MVS_Canteen_Desert
-	MVS_Cap_Digi_Desert
+	MVS_Cap_Desert_Digi
 	MVS_Cap_Multicam_Desert
 	MVS_Cap_Desert
-	MVS_FlatCap_Digi_Desert
+	MVS_FlatCap_Desert_Digi
 	MVS_FlatCap_Multicam_Desert
 	MVS_FlatCap_Desert
-	MVS_CombatShirt_Digi_Desert
+	MVS_CombatShirt_Desert_Digi
 	MVS_CombatShirt_Multicam_Desert
 	MVS_CombatShirt_Desert
-	MVS_CombatPants_Digi_Desert
+	MVS_CombatPants_Desert_Digi
 	MVS_CombatPants_Multicam_Desert
 	MVS_CombatPants_Desert
     
 	// Attachments
-    MVS_Admin_Pouch_Digi_Desert
+    MVS_Admin_Pouch_Desert_Digi
     MVS_Admin_Pouch_Multicam_Desert
     MVS_Admin_Pouch_Desert
-    MVS_Medical_Pouch_Digi_Desert
+    MVS_Medical_Pouch_Desert_Digi
     MVS_Medical_Pouch_Multicam_Desert
     MVS_Medical_Pouch_Desert
-    MVS_Magazine_Pouch_Digi_Desert
+    MVS_Magazine_Pouch_Desert_Digi
     MVS_Magazine_Pouch_Multicam_Desert
     MVS_Magazine_Pouch_Desert
-    MVS_Utility_Pouch_Digi_Desert
+    MVS_Utility_Pouch_Desert_Digi
     MVS_Utility_Pouch_Multicam_Desert
     MVS_Utility_Pouch_Desert
-    MVS_Molle_Panel_Digi_Desert
+    MVS_Molle_Panel_Desert_Digi
     MVS_Molle_Panel_Multicam_Desert
     MVS_Molle_Panel_Desert
-    MVS_Holster_Digi_Desert
+    MVS_Holster_Desert_Digi
 	MVS_Holster_Multicam_Desert
 	MVS_Holster_Desert
-	MVS_Sheath_Digi_Desert
+	MVS_Sheath_Desert_Digi
 	MVS_Sheath_Multicam_Desert
 	MVS_Sheath_Desert
-	MVS_Taco_Pouch_Digi_Desert
+	MVS_Taco_Pouch_Desert_Digi
 	MVS_Taco_Pouch_Multicam_Desert
 	MVS_Taco_Pouch_Desert
-	MVS_Heavy_Pouch_Digi_Desert
+	MVS_Heavy_Pouch_Desert_Digi
 	MVS_Heavy_Pouch_Multicam_Desert
 	MVS_Heavy_Pouch_Desert
 
     // Helmets
-	MVS_Warrior_Digi_Desert
+	MVS_Warrior_Desert_Digi
 	MVS_Warrior_Multicam_Desert
 	MVS_Warrior_Desert
-	MVS_Helmet_02_Digi_Desert
+	MVS_Helmet_02_Desert_Digi
 	MVS_Helmet_02_Multicam_Desert
 	MVS_Helmet_02_Desert
-	MVS_OpsCore_Digi_Desert
+	MVS_OpsCore_Desert_Digi
 	MVS_OpsCore_Multicam_Desert
 	MVS_OpsCore_Desert
-    MVS_Helmet_01_Digi_Desert
+    MVS_Helmet_01_Desert_Digi
     MVS_Helmet_01_Multicam_Desert
     MVS_Helmet_01_Desert
-    MVS_ArmoredHelmet_1_Digi_Desert
+    MVS_ArmoredHelmet_1_Desert_Digi
     MVS_ArmoredHelmet_1_Multicam_Desert
     MVS_ArmoredHelmet_1_Desert
 
     // Bags
-    MVS_Pack_Digi_Desert
+    MVS_Pack_Desert_Digi
     MVS_Pack_Multicam_Desert
     MVS_Pack_Desert
-	MVS_Compact_1_Digi_Desert
+	MVS_Compact_1_Desert_Digi
 	MVS_Compact_1_Multicam_Desert
 	MVS_Compact_1_Desert
-	MVS_Compact_2_Digi_Desert
+	MVS_Compact_2_Desert_Digi
 	MVS_Compact_2_Multicam_Desert
 	MVS_Compact_2_Desert
-	MVS_Radio_Pack_Digi_Desert
+	MVS_Radio_Pack_Desert_Digi
 	MVS_Radio_Pack_Multicam_Desert
-	MVS_Rucksack_Digi_Desert
+	MVS_Rucksack_Desert_Digi
 	MVS_Rucksack_Multicam_Desert
 	MVS_Rucksack_Desert
 	MVS_Radio_Pack_Desert
-	MVS_SlingPack_Digi_Desert
+	MVS_SlingPack_Desert_Digi
 	MVS_SlingPack_Multicam_Desert
 	MVS_SlingPack_Desert
-	MVS_Assault_Pack_Digi_Desert
+	MVS_Assault_Pack_Desert_Digi
     MVS_Assault_Pack_Multicam_Desert
 	MVS_Assault_Pack_Desert
 
     // Vests
-	MVS_Vest_Digi_Desert
-	MVS_Vest_Multicam_Desert
-	MVS_Vest_Desert
-    MVS_ChestRig_Digi_Desert
+	MVS_Combat_Vest_Desert_Digi
+	MVS_Combat_Vest_Multicam_Desert
+	MVS_Combat_Vest_Desert
+    MVS_ChestRig_Desert_Digi
     MVS_ChestRig_Multicam_Desert
 	MVS_ChestRig_Desert
-	MVS_Vest_Heavy_Digi_Desert
-    MVS_Vest_Heavy_Multicam_Desert
-    MVS_Vest_Heavy_Desert
+	MVS_Combat_Vest_Heavy_Desert_Digi
+    MVS_Combat_Vest_Heavy_Multicam_Desert
+    MVS_Combat_Vest_Heavy_Desert
