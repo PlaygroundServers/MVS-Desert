@@ -591,7 +591,7 @@ class cfgVehicles
 		heatIsolation = 0.0;
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
 	};
-	class MVS_Commbat_Vest_Desert: ModularVestSystem_Base
+	class MVS_Combat_Vest_Desert: ModularVestSystem_Base
 	{
 		scope = 2;
 		displayName = "MVS Combat Vest - Desert";
