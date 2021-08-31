@@ -76,25 +76,25 @@ class cfgVehicles
 	{
 		scope = 2;
 		displayName = "MVS Medical Pouch - Digital Desert";
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi_Medical.paa","\MVS-Desert\data\vest_co_DesertDigi_Medical.paa","\MVS-Desert\data\vest_co_DesertDigi_Medical.paa"};
 	};
 	class MVS_Medical_Pouch_Multicam_Desert: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
 		displayName = "MVS Medical Pouch - Multicam Desert";
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert_Medical.paa","\MVS-Desert\data\vest_co_MC_Desert_Medical.paa","\MVS-Desert\data\vest_co_MC_Desert_Medical.paa"};
 	};
 	class MVS_Medical_Pouch_Desert: Modular_Pouch_Base_Medical
 	{
 		scope = 2;
 		displayName = "MVS Admin Pouch - Desert";
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert_Medical.paa","\MVS-Desert\data\vest_co_Desert_Medical.paa","\MVS-Desert\data\vest_co_Desert_Medical.paa"};
 	};
 	class MVS_Magazine_Pouch_Desert_Digi: Modular_Pouch_Base
 	{
 		scope = 2;
-		displayName = "MVS Magazine Pouch - Desert";
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
+		displayName = "MVS Magazine Pouch - Desert Digital";
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
 	};
 	class MVS_Magazine_Pouch_Multicam_Desert: Modular_Pouch_Base_Medical
 	{
@@ -224,7 +224,7 @@ class cfgVehicles
 		scope = 2;
 		displayName = "MVS Flat Cap - Digital Desert";
 		heatIsolation = 0.0;
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_Desert.paa","\MVS-Desert\data\MVS_Cap_co_Desert.paa","\MVS-Desert\data\MVS_Cap_co_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVS_Cap_co_DesertDigi.paa","\MVS-Desert\data\MVS_Cap_co_DesertDigi.paa","\MVS-Desert\data\MVS_Cap_co_DesertDigi.paa"};
 	};
 	class MVS_FlatCap_Multicam_Desert: MVS_FlatCap
 	{
@@ -623,20 +623,20 @@ class cfgVehicles
 		scope = 2;
 		displayName = "MVS Heavy - Digital Desert";
 		heatIsolation = 0.25;
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_DesertDigi.paa","\MVS-Desert\data\VestHeavy_co_DesertDigi.paa","\MVS-Desert\data\VestHeavy_co_DesertDigi.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVSHeavy_co_DesertDigi.paa","\MVS-Desert\data\MVSHeavy_co_DesertDigi.paa","\MVS-Desert\data\MVSHeavy_co_DesertDigi.paa"};
 	};
 	class MVS_Combat_Vest_Heavy_Multicam_Desert: ModularVestSystem_Heavy
 	{
 		scope = 2;
 		displayName = "MVS Heavy - Multicam Desert";
 		heatIsolation = 0.25;
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_MC_Desert.paa","\MVS-Desert\data\VestHeavy_co_MC_Desert.paa","\MVS-Desert\data\VestHeavy_co_MC_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVSHeavy_co_MC_Desert.paa","\MVS-Desert\data\MVSHeavy_co_MC_Desert.paa","\MVS-Desert\data\MVSHeavy_co_MC_Desert.paa"};
 	};
 	class MVS_Combat_Vest_Heavy_Desert: ModularVestSystem_Heavy
 	{
 		scope = 2;
 		displayName = "MVS Heavy - Desert";
 		heatIsolation = 0.25;
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_Desert.paa","\MVS-Desert\data\VestHeavy_co_Desert.paa","\MVS-Desert\data\VestHeavy_co_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVSHeavy_co_Desert.paa","\MVS-Desert\data\MVSHeavy_co_Desert.paa","\MVS-Desert\data\MVSHeavy_co_Desert.paa"};
 	};
 };
