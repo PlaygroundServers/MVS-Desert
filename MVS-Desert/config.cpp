@@ -347,21 +347,21 @@ class cfgVehicles
 		scope = 2;
 		displayName = "MVS Heavy LMG Pouch - Digital Desert";
 		heatIsolation = 0.8;
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVSHeavy_co_DesertDigi.paa","\MVS-Desert\data\MVSHeavy_co_DesertDigi.paa","\MVS-Desert\data\MVSHeavy_co_DesertDigi.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_DesertDigi.paa","\MVS-Desert\data\VestHeavy_co_DesertDigi.paa","\MVS-Desert\data\VestHeavy_co_DesertDigi.paa"};
 	};
 	class MVS_Heavy_Pouch_Multicam_Desert: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
 		displayName = "MVS Heavy LMG Pouch - Multicam Desert";
 		heatIsolation = 0.8;
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVSHeavy_co_MC_Desert.paa","\MVS-Desert\data\MVSHeavy_co_MC_Desert.paa","\MVS-Desert\data\MVSHeavy_co_MC_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_MC_Desert.paa","\MVS-Desert\data\VestHeavy_co_MC_Desert.paa","\MVS-Desert\data\VestHeavy_co_MC_Desert.paa"};
 	};
 	class MVS_Heavy_Pouch_Desert: Modular_Pouch_Base_Heavy
 	{
 		scope = 2;
 		displayName = "MVS Heavy LMG Pouch - Desert";
 		heatIsolation = 0.8;
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\MVSHeavy_co_Desert.paa","\MVS-Desert\data\MVSHeavy_co_Desert.paa","\MVS-Desert\data\MVSHeavy_co_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\VestHeavy_co_Desert.paa","\MVS-Desert\data\VestHeavy_co_Desert.paa","\MVS-Desert\data\VestHeavy_co_Desert.paa"};
 	};
 	class MVS_ArmoredHelmet_Desert_Digi: MVS_ArmoredHelmet_Base
 	{
