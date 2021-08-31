@@ -55,9 +55,9 @@ Modular Vest System by DaddyPrapor
 	MVS_Heavy_Pouch_Desert
 
     // Helmets
-	MVS_Warrior_Desert_Digi
-	MVS_Warrior_Multicam_Desert
-	MVS_Warrior_Desert
+	MVS_WarriorHelmet_Desert_Digi
+	MVS_WarriorHelmet_Multicam_Desert
+	MVS_WarriorHelmet_Desert
 	MVS_Helmet_02_Desert_Digi
 	MVS_Helmet_02_Multicam_Desert
 	MVS_Helmet_02_Desert
