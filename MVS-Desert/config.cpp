@@ -129,19 +129,19 @@ class cfgVehicles
 	class MVS_Molle_Panel_Desert_Digi: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - Digital Desert";
+		displayName = "MVS Molle Panel - Digital Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
 	};
 	class MVS_Molle_Panel_Multi_Desert: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - Multicam Desert";
+		displayName = "MVS Molle Panel - Multicam Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
 	};
 	class MVS_Molle_Panel_Desert: MVS_Molle_Panel_Base
 	{
 		scope = 2;
-		displayName = "MVS Admin Pouch - Desert";
+		displayName = "MVS Molle Panel - Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa","\MVS-Desert\data\vest_co_Desert.paa"};
 	};
 	class MVS_Belt_Desert_Digi: Modular_Belt_Base
