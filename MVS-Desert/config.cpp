@@ -96,13 +96,13 @@ class cfgVehicles
 		displayName = "MVS Magazine Pouch - Desert Digital";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa","\MVS-Desert\data\vest_co_DesertDigi.paa"};
 	};
-	class MVS_Magazine_Pouch_Multicam_Desert: Modular_Pouch_Base_Medical
+	class MVS_Magazine_Pouch_Multicam_Desert: Modular_Pouch_Base
 	{
 		scope = 2;
 		displayName = "MVS Magazine Pouch - Multicam Desert";
 		hiddenSelectionsTextures[] = {"\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa","\MVS-Desert\data\vest_co_MC_Desert.paa"};
 	};
-	class MVS_Magazine_Pouch_Desert: Modular_Pouch_Base_Medical
+	class MVS_Magazine_Pouch_Desert: Modular_Pouch_Base
 	{
 		scope = 2;
 		displayName = "MVS Magazine Pouch - Desert";
@@ -190,7 +190,7 @@ class cfgVehicles
 	{
 		scope = 2;
 		displayName = "MVS Canteen - Multicam Desert";
-		hiddenSelectionsTextures[] = {"\MVS-Desert\data\canteen_co_Desert.paa","\MVS-Desert\data\canteen_co_Desert.paa","\MVS-Desert\data\canteen_co_Desert.paa"};
+		hiddenSelectionsTextures[] = {"\MVS-Desert\data\canteen_co_MC_Desert.paa","\MVS-Desert\data\canteen_co_MC_Desert.paa","MVS-Desert\data\canteen_co_MC_Desert.paa"};
 	};
 	class MVS_Canteen_Desert: MVS_Canteen_Base
 	{
